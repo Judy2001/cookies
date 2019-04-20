@@ -14,3 +14,6 @@ def index():
     resp = make_response(message)
     resp.set_cookie('visit-count', str(count))
     return resp
+
+
+app.run()
